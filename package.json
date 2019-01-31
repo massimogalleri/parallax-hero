@@ -1,0 +1,24 @@
+{
+  "name": "parallax-hero",
+  "version": "1.0.0",
+  "description": "Parallax scrolling hero UI/UX",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/massimogalleri/parallax-hero.git"
+  },
+  "author": "Massimo Galleri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/massimogalleri/parallax-hero/issues"
+  },
+  "homepage": "https://github.com/massimogalleri/parallax-hero#readme",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0"
+  }
+}
