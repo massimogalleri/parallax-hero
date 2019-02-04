@@ -2,7 +2,6 @@
     
     // vars
 
-    const _body = document.querySelector('body');
     const _hero = document.getElementsByClassName('hero');
     const _image_bg = document.getElementsByClassName('image-bg');
     const _video_bg = document.getElementsByClassName('video-bg');
