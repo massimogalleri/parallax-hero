@@ -2,7 +2,6 @@
     
     // vars
 
-    const _window = document.documentElement;
     const _body = document.querySelector('body');
     const _hero = document.getElementsByClassName('hero');
     const _image_bg = document.getElementsByClassName('image-bg');
@@ -14,7 +13,7 @@
 
     function _parallax_hero() {
 
-        let _current_top = _window.scrollTop;
+        let _current_top = document.documentElement;
 
         // image-bg 
 
