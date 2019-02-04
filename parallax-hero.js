@@ -13,7 +13,7 @@
 
     function _parallax_hero() {
 
-        let _current_top = document.documentElement;
+        let _current_top = document.documentElement.scrollTop;
 
         // image-bg 
 
