@@ -10,7 +10,7 @@ var _window = document.documentElement,
 
 // core function
 
-function parallax_hero() {
+function _parallax_hero() {
 
     var _current_top = _window.scrollTop;
 
@@ -51,13 +51,6 @@ function parallax_hero() {
 
 }
 
+_parallax_hero();
 
-// scroll function
-
-function _window_scroll() {
-    parallax_hero();
-}
-
-_window_scroll();
-
-window.addEventListener('scroll', _window_scroll);
+window.addEventListener('scroll', _parallax_hero);
